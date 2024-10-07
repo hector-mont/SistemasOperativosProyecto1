@@ -32,9 +32,9 @@ public class ProductorCPU extends Thread {
     
     public void run(){
         try {
-            while(cantidadDeDiasEntreLanzamientos > 0){
+            while(cantidadDeDiasEntreEnsamblado > 0){
                 //se esta ensamblando
-                sleep(duracionDiaEnSegundos * 1000 / numeroDeProductores);
+                sleep(duracionDiaEnSegundos * 2000 / numeroDeProductores);
                 // se revisa el espacio, de nuevo lo mismo que en el de placa, hay que definir la interfaz
                 xnombre.acquire();
                 //revisar si esta solo, tiene que

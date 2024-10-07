@@ -32,7 +32,7 @@ public class ProductorPlaca extends Thread {
     public void run(){
         try {
             //cantidadDiasEntreLanzamiento es de la interfaz
-            while (cantidadDiasEntreEnsamble > 0){
+            while (cantidadDeDiasEntreEnsamblado > 0){
                 //se esta ensamblando la placa
                 sleep(duracionDiaEnSegundos * 1000 / numeroDeProductores);
                 // se revisa si hay espacio
