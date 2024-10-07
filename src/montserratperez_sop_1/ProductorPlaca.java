@@ -6,6 +6,7 @@ package montserratperez_sop_1;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import javax.swing.JTextField;
 
 /**
  *
